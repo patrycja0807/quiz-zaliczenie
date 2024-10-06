@@ -1,0 +1,155 @@
+* {
+    margin: 30;
+    padding: 0;
+    font-family: '' serif;
+    box-sizing: border-box;
+
+}
+
+.dm-serif-text-regular {
+    font-family: "DM Serif Text", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+
+  .im-fell-great-primer-sc-regular {
+    font-family: "IM Fell Great Primer SC", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+body {
+    background: #6666FF
+}
+
+.nagłówek {
+    background: #082655;
+    width: 90%;
+    max-width: 700px;
+    margin: 100px; 
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nagłówek h1 {
+    font-size: 50px;
+    color: white;
+    font-weight: 600;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+
+.question {
+    background-color: white;
+    margin: 30px;
+    margin-right: 50px;
+    font-size: 20px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    box-shadow: 0px 20px 20px -10px #4e4f50;
+    border-radius: 10px;
+
+}
+
+.pytanie-quiz {
+    font-weight: 20;
+    cursor: pointer;
+}
+
+
+.answers {
+
+    padding-top: 16px;
+    flex-direction: row;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    display: grid;
+    cursor: pointer;
+    font-family: "My Font";
+    src: url("https://fonts.gstatic.com");
+    font-size:20px;
+    box-shadow: 0px 20px 20px -10px #4e4f50;
+    border-radius: 10px;
+    background-color: #f0e2bb;
+    transition: background-color 0.5s;
+
+}
+
+.answers:hover {
+background-color: #f0cb65;
+}
+
+label {
+    cursor: pointer;
+}
+
+.button {
+    font-size: 16px;
+    padding: 15px 32px;
+    border: none;
+    width: 100 px;
+    height: 50px;
+    color: white;;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 600px;
+    margin-bottom: 50px;
+    background-color: #001e4d;
+    border-radius: 12px;
+    transition: background-color 0.5s;
+
+}
+
+button:hover {
+    background-color: #193563;
+}
+
+.my-results{
+    font-size: 20px;
+}
+
+.modal{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    padding: 20px;
+    width: 600px;
+    height: 300px;
+    font-size: 24px;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid #6666FF;
+}
+
+.modal-active{
+    display: flex;
+}
+
+.close-modal{
+    position: absolute;
+    top: 0px;
+    right: 30px;
+}
+
+.correct{
+    color:forestgreen;
+}
+
+.incorrect{
+    color:tomato;
+}
